@@ -18,6 +18,8 @@ labelFooter = ""; //String added to end of numerical label
 smooth = 1; //Final smoothing for antialiasing of tick marks
 aspectRatio = 0.98; //Ratio of vertical / horizontal label radius - used to bring labels closer to marks
 draft = 0; //Counter of the current dial draft
+setForegroundColor(0, 0, 0);
+setBackgroundColor(255, 255, 255);
 
 while(createDial){
 	draft++;
